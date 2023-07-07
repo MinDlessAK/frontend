@@ -1,112 +1,89 @@
-import { component$ } from "@builder.io/qwik";
-import type { DocumentHead } from "@builder.io/qwik-city";
-
-import Counter from "~/components/starter/counter/counter";
-import Hero from "~/components/starter/hero/hero";
-import Infobox from "~/components/starter/infobox/infobox";
-import Starter from "~/components/starter/next-steps/next-steps";
-
-export default component$(() => {
+export default() => {
   return (
     <>
-      <Hero />
-      <Starter />
+      <div class="flex bg-green-500 min-h-screen w-full">
+    <div class="flex flex-col bg-purple-500 w-56 gap-3 pt-3">
+        <h1 class=" pt-10 pl-6 text-white font-bold">E@Crouse</h1>
+        <div class=" bg-purple-500 flex  flex-col grow gap-3 items-center pt-28">
+        <div class="bg-white h-12 w-52"></div>
+        <div class="bg-white h-12 w-52"></div>
+        <div class="bg-white h-12 w-52"></div>
+        <div class="bg-white h-12 w-52"></div>
+        <div class="bg-white h-12 w-52"></div>
 
-      <div role="presentation" class="ellipsis"></div>
-      <div role="presentation" class="ellipsis ellipsis-purple"></div>
+     </div>
+     <div class="  bg-purple-500 w-full flex gap-4 flex-col items-center pb-3">
+        <div class="bg-white h-12 w-52"></div>
+        <div class="bg-white h-12 w-52"></div>
+     </div>
 
-      <div class="container container-center container-spacing-xl">
-        <h3>
-          You can <span class="highlight">count</span>
-          <br /> on me
-        </h3>
-        <Counter />
+</div>
+
+
+
+
+<div class="bg-white grow flex flex-col px-10 gap-7">
+    
+    <div class="h-14 bg-white flex gap-4 mt-7  ">
+
+        <div class="bg-red-400  grow "></div>
+        <div class="bg-red-400  h-full w-24"></div>
+        <div class="bg-red-400  h-full w-24"></div>
+     
+      </div>
+      <div class="h-14 bg-white flex   justify-between ">
+
+        <div class="bg-red-400  h-full w-32 "></div>
+        <div class="bg-red-400  h-full w-32"></div>
+        <div class="bg-red-400  h-full w-32"></div>
+        <div class="bg-red-400  h-full w-32 "></div>
+        <div class="bg-red-400  h-full w-32 "></div>
+     
       </div>
 
-      <div class="container container-flex">
-        <Infobox>
-          <div q:slot="title" class="icon icon-cli">
-            CLI Commands
-          </div>
-          <>
-            <p>
-              <code>npm run dev</code>
-              <br />
-              Starts the development server and watches for changes
-            </p>
-            <p>
-              <code>npm run preview</code>
-              <br />
-              Creates production build and starts a server to preview it
-            </p>
-            <p>
-              <code>npm run build</code>
-              <br />
-              Creates production build
-            </p>
-            <p>
-              <code>npm run qwik add</code>
-              <br />
-              Runs the qwik CLI to add integrations
-            </p>
-          </>
-        </Infobox>
-
-        <div>
-          <Infobox>
-            <div q:slot="title" class="icon icon-apps">
-              Example Apps
-            </div>
-            <p>
-              Have a look at the <a href="/demo/flower">Flower App</a> or the{" "}
-              <a href="/demo/todolist">Todo App</a>.
-            </p>
-          </Infobox>
-
-          <Infobox>
-            <div q:slot="title" class="icon icon-community">
-              Community
-            </div>
-            <ul>
-              <li>
-                <span>Questions or just want to say hi? </span>
-                <a href="https://qwik.builder.io/chat" target="_blank">
-                  Chat on discord!
-                </a>
-              </li>
-              <li>
-                <span>Follow </span>
-                <a href="https://twitter.com/QwikDev" target="_blank">
-                  @QwikDev
-                </a>
-                <span> on Twitter</span>
-              </li>
-              <li>
-                <span>Open issues and contribute on </span>
-                <a href="https://github.com/BuilderIO/qwik" target="_blank">
-                  GitHub
-                </a>
-              </li>
-              <li>
-                <span>Watch </span>
-                <a href="https://qwik.builder.io/media/" target="_blank">
-                  Presentations, Podcasts, Videos, etc.
-                </a>
-              </li>
-            </ul>
-          </Infobox>
+    <div class="bg-gray-500 h-40 flex  1 rounded-3xl ">
+        <div class="bg-red-400 h-40 rounded-3xl w-72"></div>
+        <div class=" bg-purple-600 rounded-3xl flex grow flex-col">
+           <div class="h-14 w-full bg-red-500"></div>
+           <div class=" bg-purple-600 grow"></div>
+           <div class="h-10 w-full bg-pink-500"></div>
         </div>
       </div>
+      <div class="bg-gray-500 h-40 flex  1 rounded-3xl ">
+        <div class="bg-red-400 h-40 rounded-3xl w-72"></div>
+        <div class=" bg-purple-600 rounded-3xl flex grow flex-col">
+           <div class="h-14 w-full bg-red-500"></div>
+           <div class=" bg-purple-600 grow"></div>
+           <div class="h-10 w-full bg-pink-500"></div>
+        </div>
+      </div>
+      <div class="bg-gray-500 h-40 flex  1 rounded-3xl ">
+        <div class="bg-red-400 h-40 rounded-3xl w-72"></div>
+        <div class=" bg-purple-600 rounded-3xl flex grow flex-col">
+           <div class="h-14 w-full bg-red-500"></div>
+           <div class=" bg-purple-600 grow"></div>
+           <div class="h-10 w-full bg-pink-500"></div>
+        </div>
+      </div>
+ </div>
+
+
+
+    <div class="bg-gray-700 w-72 flex flex-col">
+      
+      <div class="bg-red-500  h-32 w-full"></div>
+      <div class="bg-purple-500  h-72 w-full"></div>
+      <div class="bg-black grow"></div>
+
+        
+     </div>
+
+
+
+  </div>
+
     </>
   );
-});
-
-export const head: DocumentHead = {
-  title: "Welcome to Qwik",
-  meta: [
-    {
-      name: "description",
-      content: "Qwik site description",
-    },
-  ],
 };
+
+
