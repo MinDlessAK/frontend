@@ -1,54 +1,77 @@
+
+import ImgComputer from '~/media/computer.png?jsx';
+
 export default function content() {
   return (
     <>
     <div class="h-14 bg-white flex gap-4 mt-7  ">
 
-      <div class="bg-red-400  grow "></div>
+      <div class="  grow text-purple-500 font-bold text-5xl">My Courses</div>
       <div class="flex  gap-3 ">
       <div class="bg-red-400  h-full lg:w-24 w-10 "></div>
       <div class="bg-red-400  h-full lg:w-24  w-10"></div>
       </div>
     </div>
-    <div class="h-14 bg-white flex   justify-between lg:gap-2">
+    <div class="h-14 bg-white flex   justify-between gap-2 ">
 
-         <div class="bg-red-400  h-full lg:w-24 w-10"></div>
-         <div class="bg-red-400  h-full lg:w-24 w-10"></div>
-         <div class="bg-red-400  h-full lg:w-24 w-10"></div>
-         <div class="bg-red-400  h-full lg:w-24 w-10 "></div>
-         <div class="bg-red-400  h-full lg:w-24 w-10 "></div>
+         <div class="  h-full w-24 w-10 text-black font-medium  flex items-center">Filter by:</div>
+         <div class=" bg-gray-300 rounded-3xl   w-24  flex items-center text-medium justify-center"><button >Title</button></div>
+         <div class=" bg-gray-300 rounded-3xl   w-24  flex items-center text-medium justify-center"><button>Level</button></div>
+         <div class=" bg-gray-300 rounded-3xl   w-24  flex items-center text-medium justify-center"><button>Sort</button></div>
+         <div class=" bg-gray-300 rounded-3xl   w-24  flex items-center text-medium justify-center"><button>Language</button></div>
 
     </div>
     
-    <div class="bg-gray-500  lg:flex  1 rounded-3xl ">
+    <div class="  lg:flex bg-purple-100 rounded-2xl  cursor-pointer ">
         <div class="flex flex-col items-center">
-          <div class="bg-red-400 lg:h-full h-56 rounded-3xl lg:w-72  w-72 "></div>
+          <div class=" lg:h-full h-56  lg:w-72  w-72 ">
+              <ImgComputer class="h-full w-full" />
+          </div>
         </div>
-        <div class=" bg-purple-600 rounded-3xl flex grow flex-col">
-           <div class="lg:h-14 w-full bg-red-500 h-6"></div>
-           <div class=" bg-purple-600 lg:grow h-36"></div>
-           <div class="lg:h-10 w-full bg-pink-500 h-8"></div>
+        <div class="  rounded-3xl flex grow flex-col ">
+           <div class="lg:h-14 w-full   text-black font-medium text-3xl ">Opreating System</div>
+           <div class=" grow text-gray-400 text-2xl pt-4 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores eos nesciunt consectetur numquam eligendi aperiam nam, veritatis reprehenderit expedita hic perspiciatis dolore velit iure exercitationem?</div>
+
+           <div class="lg:h-10 w-full text-gray-400 font-medium text-2xl    flex gap-2 justify-center items-center pb-4">Checked By:
+           <p class="inline text-black font-medium text-2xl  ">Akash Mishra</p>
+           <button class="font-bold bg-purple-500 rounded-full w-10 h-10 text-white ml-auto">^</button>
+           </div>
+
         </div>
       </div>
-      <div class="bg-gray-500  lg:flex  1 rounded-3xl ">
+
+      <div class="  lg:flex bg-blue-100 rounded-2xl hover:shadow-3xl cursor-pointer ">
         <div class="flex flex-col items-center">
-          <div class="bg-red-400 lg:h-full h-56 rounded-3xl lg:w-72  w-72 "></div>
+          <div class=" lg:h-full h-56  lg:w-72  w-72 ">
+              <ImgComputer class="h-full w-full" />
+          </div>
         </div>
-        <div class=" bg-purple-600 rounded-3xl flex grow flex-col">
-           <div class="lg:h-14 w-full bg-red-500 h-6"></div>
-           <div class=" bg-purple-600 lg:grow h-36"></div>
-           <div class="lg:h-10 w-full bg-pink-500 h-8"></div>
+        <div class="  rounded-3xl flex grow flex-col ">
+           <div class="lg:h-14 w-full   text-black font-medium text-3xl ">Opreating System</div>
+           <div class="  lg:grow text-gray-400 text-2xl ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores eos nesciunt consectetur numquam eligendi aperiam nam, veritatis reprehenderit expedita hic perspiciatis dolore velit iure exercitationem?</div>
+           <div class="lg:h-10 w-full text-gray-400 font-medium text-2xl    flex gap-2 justify-center items-center pb-4">Checked By:
+           <p class="inline text-black font-medium text-2xl  ">Akash Mishra</p>
+           <button class="font-bold bg-purple-500 rounded-full w-10 h-10 text-white ml-auto">^</button>
+           </div>
         </div>
       </div>
-      <div class="bg-gray-500  lg:flex  1 rounded-3xl ">
+
+      <div class="  lg:flex bg-red-200 rounded-2xl hover:shadow-3xl cursor-pointer ">
         <div class="flex flex-col items-center">
-          <div class="bg-red-400 lg:h-full h-56 rounded-3xl lg:w-72  w-72 "></div>
+          <div class=" lg:h-full h-56  lg:w-72  w-72 ">
+              <ImgComputer class="h-full w-full" />
+          </div>
         </div>
-        <div class=" bg-purple-600 rounded-3xl flex grow flex-col">
-           <div class="lg:h-14 w-full bg-red-500 h-6"></div>
-           <div class=" bg-purple-600 lg:grow h-36"></div>
-           <div class="lg:h-10 w-full bg-pink-500 h-8"></div>
+        <div class="  rounded-3xl flex grow flex-col ">
+           <div class="lg:h-14 w-full   text-black font-medium text-3xl ">Opreating System</div>
+           <div class="  lg:grow text-gray-400 text-2xl ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores eos nesciunt consectetur numquam eligendi aperiam nam, veritatis reprehenderit expedita hic perspiciatis dolore velit iure exercitationem?</div>
+           <div class="lg:h-10 w-full text-gray-400 font-medium text-2xl    flex gap-2 justify-center items-center pb-4">Checked By:
+           <p class="inline text-black font-medium text-2xl  ">Akash Mishra</p>
+           <button class="font-bold bg-purple-500 rounded-full w-10 h-10 text-white ml-auto">^</button>
+           </div>
         </div>
       </div>
+
       <div class="bg-gray-700  flex flex-row lg:hidden">
          <div class="bg-red-500  h-56 w-32"></div>
           <div class="bg-purple-500  h-56 w-32"></div>
