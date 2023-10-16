@@ -16,6 +16,9 @@ export default() => {
                <Aside></Aside>
         </div> */}
     </div>
+    <div class="flex flex-col bg-orange-500 h-screen w-full justify-center  items-center">
+    <div class="bg-slate-600 h-2/4 w-1/4  " ></div>
+    </div>
 
     </>
   );
